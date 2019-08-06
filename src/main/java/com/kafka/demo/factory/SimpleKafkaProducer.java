@@ -37,8 +37,8 @@ public class SimpleKafkaProducer {
         }
 
     }
-
     public static void main(String[] args) {
         new SimpleKafkaProducer().produce();
+        System.out.println("山大啊");
     }
 }
